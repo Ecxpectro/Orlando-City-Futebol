@@ -118,13 +118,29 @@ header #logotipo {
 }
 
 #menu {
-    margin: 26px;
+    margin: 12px 0;
 }
 
 #menu li {
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+
+}
+
+#menu li.search {
+    width: 182px;
+}
+
+#menu li.search input {
+    background-color: #5c2d90;
+    color: #fff;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+}
+
+#menu li.search ::-webkit-input-placeholder {
+    color: #fff;
 }
 
 #menu li a {
@@ -132,9 +148,28 @@ header #logotipo {
     font-size: 16px;
     padding: 10px 25px;
     text-decoration: none;
+    font-weight: bold;
 
 }
 
+#menu li.search button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 3px;
+    z-index: 10;
+}
+
+#menu li.search button i {
+    font-size: 14px;
+    color: rgba(255, 255, 255, .5);
+}
+
+
 .row {
     width: 100%;
+}
+
+#menu li.search .input.group {
+    top: 8px;
 }

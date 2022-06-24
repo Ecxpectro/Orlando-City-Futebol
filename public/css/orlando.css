@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+
 header {
     width: 100%;
     height: 150px;
-    background-color: #5e299A;
-
+    background-color: rgba(94, 41, 154, .8);
+    z-index: 2;
+    position: relative;
 
 }
 
@@ -129,6 +134,7 @@ header #logotipo {
 
 #menu li.search {
     width: 182px;
+
 }
 
 #menu li.search input {
@@ -137,10 +143,12 @@ header #logotipo {
     border: none;
     height: 30px;
     line-height: 30px;
+    box-shadow: none;
 }
 
 #menu li.search ::-webkit-input-placeholder {
     color: #fff;
+
 }
 
 #menu li a {
@@ -172,4 +180,41 @@ header #logotipo {
 
 #menu li.search .input.group {
     top: 8px;
+
+}
+
+
+#banner {
+    display: block;
+    width: 100%;
+    height: 768px;
+    padding: 0;
+    text-align: center;
+    background: url("../img/banner.jpg") no-repeat bottom center scroll;
+    top: -110px;
+    position: relative;
+    background-position: 0% 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#banner h1 {
+    color: #fff;
+    top: 300px;
+    font-size: 92px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
+    margin-left: 50px;
+}
+
+#banner h1 small {
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    color: #fff;
+    text-align: start;
+    font-weight: bold;
 }

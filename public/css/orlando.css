@@ -102,6 +102,10 @@ header .header-black li.club-20 {
     background-position: -907px 0px;
 }
 
+header .header-black li.club-21 {
+    background-position: -947px 0px;
+}
+
 header .header-black li a {
     width: 32px;
     height: 32px;
@@ -110,5 +114,27 @@ header .header-black li a {
 
 header #logotipo {
     position: absolute;
-    top: -30px;
+    top: 20px;
+}
+
+#menu {
+    margin: 26px;
+}
+
+#menu li {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+#menu li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 25px;
+    text-decoration: none;
+
+}
+
+.row {
+    width: 100%;
 }

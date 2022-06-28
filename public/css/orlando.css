@@ -129,7 +129,7 @@ header #logotipo {
 #menu li {
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
-
+    font-weight: 400;
 }
 
 #menu li.search {
@@ -144,6 +144,7 @@ header #logotipo {
     height: 30px;
     line-height: 30px;
     box-shadow: none;
+    border-radius: 0;
 }
 
 #menu li.search ::-webkit-input-placeholder {
@@ -208,6 +209,7 @@ header #logotipo {
     position: relative;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
     margin-left: 50px;
+    font-weight: 300;
 }
 
 #banner h1 small {
@@ -217,4 +219,47 @@ header #logotipo {
     color: #fff;
     text-align: start;
     font-weight: bold;
+    font-weight: 300;
+}
+
+#news {
+    position: relative;
+    top: -110px;
+}
+
+#news h2 {
+    color: #5e2799;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+#news hr {
+    border: #fde192 2px solid;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#news .thumbnails {
+    margin-top: 20px;
+}
+
+#news .thumbnails {
+    color: #5e299a;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+#news .thumbnails time {
+    color: #a7a7a7;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+
+
 }

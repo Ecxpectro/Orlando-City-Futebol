@@ -42,4 +42,29 @@
     #banner h1 small {
         font-size: 22px;
     }
+    #news h2 {
+        font-size: 32px;
+    }
+    #news hr{
+        border-width: 4px;
+    }
+    .thumbnails{
+        text-align: center;
+    }
+    #news .thumbnails .item-inner img{
+        width: 80%;
+    }
+    #btn-news-next, #btn-news-prev{
+        border: none;
+        background: none;
+        color: #5e2699;
+        font-size: 48px;
+        display: block;
+        position: absolute;
+        top: 150px;
+        
+    }
+    #btn-news-next{
+        right: 15px;
+    }
 }

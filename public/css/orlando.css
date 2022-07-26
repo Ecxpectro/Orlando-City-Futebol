@@ -494,3 +494,6 @@ footer .list-socials i {
 #call-to-action .barra{
   margin-bottom: 30px;
 }
+#btn-bars, #btn-search{
+  display: none;
+}

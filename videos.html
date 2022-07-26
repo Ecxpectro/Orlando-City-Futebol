@@ -93,7 +93,9 @@
               src="public/mp4/highlights.mp4"
               controls
               poster="public/img/highlights.jpg"
-            ></video>
+            >
+            <track kind="captions" label="Português (Brasil)" src="vtt/legendas.vtt" srclang="pt-br" default />
+          </video>
           </div>
             <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
             <button type="button" id="btn-play-pause" class="btn btn-success">PLAY</button>
@@ -308,7 +310,7 @@
         a.onload = function(){
           var c = d.createElement("div");
           c.style.display = "none";
-          c.innerHTML = a.reponseText;
+          c.innerHTML = a.responseText;
           b.insertBefore(c, b.childNodes[0]);
         }
       })(document, "lib/plyr/dist/sprite.svg");
